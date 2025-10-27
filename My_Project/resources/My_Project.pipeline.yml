@@ -1,0 +1,14 @@
+# The main pipeline for My_Project
+resources:
+  pipelines:
+    My_Project_pipeline:
+      name: My_Project_pipeline
+      catalog: workspace
+      schema: My_Project_${bundle.target}
+      serverless: true
+      libraries:
+        - notebook:
+            path: ../src/pipeline.ipynb
+
+      configuration:
+        bundle.sourcePath: ${workspace.file_path}/src
