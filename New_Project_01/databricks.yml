@@ -1,8 +1,8 @@
-# This is a Databricks asset bundle definition for Project_01.
+# This is a Databricks asset bundle definition for New_Project_01.
 # See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
 bundle:
-  name: Project_01
-  uuid: d4adea8e-1704-4166-8588-1f8e95713726
+  name: New_Project_01
+  uuid: 3f23ff71-9037-4f2e-b1ba-64d9510dba74
 
 artifacts:
   python_artifact:

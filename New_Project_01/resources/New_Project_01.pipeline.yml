@@ -1,10 +1,10 @@
-# The main pipeline for Project_01
+# The main pipeline for New_Project_01
 resources:
   pipelines:
-    Project_01_pipeline:
-      name: Project_01_pipeline
+    New_Project_01_pipeline:
+      name: New_Project_01_pipeline
       catalog: workspace
-      schema: Project_01_${bundle.target}
+      schema: New_Project_01_${bundle.target}
       serverless: true
       libraries:
         - notebook:
